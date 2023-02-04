@@ -1,0 +1,52 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background: #e3edf7;
+}
+.main
+{
+  /* border: 2px solid blue; */
+   width:95%;
+   margin-left: 30px;
+ /* margin:auto; */ 
+}
+.bar
+{
+  border-radius: 10px;
+  background-color: red;
+  height: 15px;
+  width: 0;
+  transition: width 2s ease-in-out;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #548ec9;
+}
+.fullwidth
+{
+  width: 100%;
+}
+.button-center
+{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button
+{
+  background-color: antiquewhite;
+  border: none;
+  text-align: center;
+  margin:5px;
+  border-radius: 5px;
+  padding: 8px;
+}
+button:hover
+{
+  cursor: pointer;
+}
